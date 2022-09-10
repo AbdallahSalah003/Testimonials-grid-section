@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Testimonials grid section](https://abdallahsalah003.github.io/Product-preview-card-component/)
+- Live Site URL: [Testimonials grid section](https://abdallahsalah003.github.io/Testimonials-grid-section/)
 
 ## My process
 
