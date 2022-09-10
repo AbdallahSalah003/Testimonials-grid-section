@@ -1,0 +1,197 @@
+.parent {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.co-parent {
+    width: 90vw;
+    height: 80vh;
+    background-color:   hsl(210, 46%, 95%);
+    box-shadow: 2px 2px 15px 5px #ccc;
+    display: grid;
+    grid-template-columns: repeat(68,1fr);
+    grid-template-rows: repeat(21,1fr);
+}
+.daneil {
+    grid-area: 3/9/11/33 ;
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(17,1fr);
+    grid-template-rows: repeat(11,1fr);
+}
+        .pic-daneil {
+            grid-area: 2/2/3/3;
+        }
+        .name-daneil {
+            grid-area: 2/4/3/9;
+            font-size: 11px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+            .name1 {
+                grid-area: 1/1/2/2;
+                display: flex;
+                align-items: flex-end;
+            }
+            .ver-gr1 {
+                grid-area: 2/1/3/2;
+                opacity: 50%;
+            }
+        .bold-disc1 {
+            grid-area: 3/2/6/17;
+            font-size: 15px;
+        }
+        .qouted-disc1 {
+            grid-area: 7/2/11/17;
+            opacity: 70%;
+            font-size: 11px;
+         }
+.svg-position {
+    grid-area: 1/13/8/16;
+}
+
+.johna {
+    grid-area: 3/34/11/46;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+        .pic-johna {
+            grid-area: 2/2/3/3;
+        }
+        .name-johna {
+            grid-area: 2/4/3/10 ;
+            font-size: 11px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .bold-disc2 {
+            grid-area: 4/2/6/10;
+            font-size: 15px;
+        }
+        .qouted-disc2 {
+            grid-area: 7/2/10/10;
+            opacity: 70%;
+            font-size: 11px;
+        }
+
+
+.kira {
+    grid-area: 3/47/20/59;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0.5px 0.5px 2px 1.25px #ccc;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(20,1fr);
+}
+        .pic-kira {
+            grid-area: 2/2/3/3;
+        }
+        .name-kira {
+            grid-area: 2/4/3/10 ;
+            font-size: 11px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .bold-disc5 {
+            grid-area: 4/2/7/9;
+            font-size: 15px;
+        }
+        .qouted-disc5 {
+            grid-area: 8/2/20/10;
+            opacity: 70%;
+            font-size: 11px;
+        }
+
+
+.jean {
+    grid-area: 12/9/20/21;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0.5px 0.5px 2px 1.25px #ccc;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+        .pic-jean {
+            grid-area: 2/2/3/3;
+        }
+        .name-jean {
+            grid-area: 2/4/3/10 ;
+            font-size: 11px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .bold-disc3 {
+            grid-area: 4/2/6/10;
+            font-size: 15px;
+        }
+        .qouted-disc3 {
+            grid-area: 7/2/10/10;
+            opacity: 70%;
+            font-size: 11px;
+        }
+
+.patric {
+    grid-area: 12/22/20/46;
+    background-color:hsl(219, 29%, 14%);
+    color: white;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(17,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+        .pic-patric {
+            grid-area: 2/2/3/3;
+        }
+        .name-patric {
+            grid-area: 2/4/3/8;
+            font-size: 11px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .bold-disc4 {
+            grid-area: 3/2/6/17;
+            font-size: 15px;
+        }
+        .qouted-disc4 {
+            grid-area: 7/2/11/17;
+            opacity: 70%;
+            font-size: 11px;
+        }
+
+
+ 
+
+ img {
+    border-radius: 50%;
+    border: 2px solid gray;
+ }
+
+ body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+ }
+
+
+
+ .daneil:hover, 
+ .johna:hover, 
+ .kira:hover, 
+ .jean:hover, 
+ .patric:hover {
+    transform: scale(1.05);
+ }
